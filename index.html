@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Herbier Interactif</title>
+    <link rel="stylesheet" href="style.css">  
+</head>
+<body>
+
+    <header>
+        <div class="header-content">
+            <h1>🌿 Mon Herbier Interactif 🌿</h1>
+            <p>Découvrez les plantes sous un nouvel angle, entre nature et technologie.</p>
+        </div>
+        <div class="menu-icon" onclick="toggleMenu()">☰</div>
+        <nav id="menu" class="hidden">
+            <ul>
+                <li><a href="plantes/tulipe.html">Tulipe</a></li>
+                <li><a href="plantes/Pensée.html">Pensée</a></li>
+                <li><a href="plantes/Primevere.html">Primevère</a></li>
+                <li><a href="plantes/Campanule.html">Campanule</a></li>
+                <li><a href="plantes/Oeillet.html">Oeillet</a></li>
+                <li><a href="plantes/Ciboulette.html">Ciboulette</a></li>
+                <li><a href="plantes/Thym.html">Thym</a></li>
+                <li><a href="plantes/Persil.html">Persil</a></li>
+                <li><a href="plantes/Coriandre.html">Coriandre</a></li>
+                <li><a href="plantes/Mâche.html">Mâche</a></li>
+                <li><a href="plantes/Celeri.html">Céleri</a></li>
+                <li><a href="plantes/Carotte.html">Carotte</a></li>
+                <li><a href="plantes/Cerfeuil.html">Cerfeuil</a></li>
+                <li><a href="plantes/Menthe.html">Menthe</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="plant-carousel">
+        <h2>Les Plantes de l'Herbier</h2>
+        <div class="carousel-container">
+            <button class="carousel-button prev" onclick="moveCarousel(-1)">&#10094;</button>
+            <div class="carousel">
+
+                <div class="plant-item">
+                    <a href="plantes/tulipe.html">
+                        <img src="image/tulipe.jpg" alt="Tulipe">
+                        <p>Tulipe</p>
+                    </a>
+                </div>
+                <div class="plant-item">
+                    <a href="plantes/pensée.html">
+                        <img src="image/pensée.jpg" alt="Pensée">
+                        <p>Pensée</p>
+                    </a>
+                </div>
+                <div class="plant-item">
+                    <a href="plantes/oeillet.html">
+                        <img src="image/oeillet.jpg" alt="Oeillet">
+                        <p>Oeillet</p>
+                    </a>
+                </div>
+                <div class="plant-item">
+                    <a href="plantes/campanule.html">
+                        <img src="image/campanule.jpg" alt="Campanule">
+                        <p>Campanule</p>
+                    </a>
+                </div>
+                <div class="plant-item">
+                    <a href="plantes/primevere.html">
+                        <img src="image/primevere.jpg" alt="Primevère">
+                        <p>Primevère</p>
+                    </a>
+                </div>
+                <div class="plant-item">
+                    <a href="plantes/carotte.html">
+                        <img src="image/carotte.jpg" alt="Carotte">
+                        <p>Carotte</p>
+                    </a>
+                </div>
+                <div class="plant-item">
+                    <a href="plantes/celeri.html">
+                        <img src="image/celeri.jpg" alt="Céleri">
+                        <p>Céleri</p>
+                    </a>
+                </div>
+                <div class="plant-item">
+                    <a href="plantes/cerfeuil.html">
+                        <img src="image/cerfeuil.jpg" alt="Cerfeuil">
+                        <p>Cerfeuil</p>
+                    </a>
+                </div>
+                <div class="plant-item">
+                    <a href="plantes/ciboulette.html">
+                        <img src="image/ciboulette.jpg" alt="Ciboulette">
+                        <p>Ciboulette</p>
+                    </a>
+                </div>
+                <div class="plant-item">
+                    <a href="plantes/coriandre.html">
+                        <img src="image/coriandre.jpg" alt="Coriandre">
+                        <p>Coriandre</p>
+                    </a>
+                </div>
+                <div class="plant-item">
+                    <a href="plantes/mâche.html">
+                        <img src="image/mâche.jpg" alt="Mâche">
+                        <p>Mâche</p>
+                    </a>
+                </div>
+                <div class="plant-item">
+                    <a href="plantes/persil.html">
+                        <img src="image/persil.jpg" alt="Persil">
+                        <p>Persil</p>
+                    </a>
+                </div>
+                <div class="plant-item">
+                    <a href="plantes/thym.html">
+                        <img src="image/thym.jpg" alt="Thym">
+                        <p>Thym</p>
+                    </a>
+                </div>
+                <div class="plant-item">
+                    <a href="plantes/menthe.html">
+                        <img src="image/menthe.jpg" alt="Menthe">
+                        <p>Menthe</p>
+                    </a>
+                </div>
+
+            </div>
+            <button class="carousel-button next" onclick="moveCarousel(1)">&#10095;</button>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>

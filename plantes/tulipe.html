@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tulipe - Herbier Interactif</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #2c3e50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            font-size: 24px;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            padding: 20px;
+            background: white;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #2980b9;
+        }
+        p {
+            text-align: justify;
+        }
+        .footer {
+            text-align: center;
+            padding: 10px;
+            background: #2c3e50;
+            color: white;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        🌷 Tulipe - Herbier Interactif 🌷
+    </header>
+
+    <div class="container">
+
+        <h2>📖 Fiche détaillée : Origine, conditions de culture et rôle dans l’écosystème</h2>
+        <p>
+            La tulipe (Tulipa) est une plante herbacée originaire d’Asie centrale, particulièrement des steppes de Turquie et des montagnes du Kazakhstan. Elle a été introduite en Europe au XVIe siècle et est rapidement devenue un symbole de luxe et de raffinement. La tulipe pousse idéalement dans des climats tempérés avec des hivers froids et des étés secs. Elle préfère un sol bien drainé et une exposition ensoleillée. Dans l’écosystème, la tulipe attire de nombreux pollinisateurs, notamment les abeilles et certains coléoptères. Elle joue un rôle clé dans la diversité florale des prairies et contribue à l’équilibre des chaînes trophiques locales.
+        </p>
+
+        <h2>🌱 Tutoriel Aquaponie : Cultiver la tulipe avec cette méthode</h2>
+        <p>
+            L’aquaponie est un système de culture qui associe élevage de poissons et culture de plantes en symbiose. Bien que la tulipe ne soit pas une plante typique de l’aquaponie, il est possible de l’adapter à ce mode de culture. En remplaçant la terre par un substrat drainant comme des billes d’argile, les racines des tulipes peuvent absorber les nutriments présents dans l’eau enrichie par les déjections des poissons. Il est essentiel de maintenir une température de l’eau stable entre 12°C et 18°C, ainsi qu’un pH légèrement acide (6.0 - 6.5). Ce système permet une culture plus durable en optimisant l’utilisation des ressources en eau et en nutriments.
+        </p>
+
+        <h2>🤖 Relation entre nature et technologie : Conservation sous serre</h2>
+        <p>
+            Les serres modernes permettent de cultiver des plantes hors de leur environnement naturel grâce à des technologies avancées. La tulipe, qui nécessite un cycle de froid pour fleurir correctement, peut être cultivée sous serre avec des systèmes de refroidissement artificiel. Dans certaines régions où le climat est trop chaud, des capteurs de température et d’humidité permettent de recréer les conditions optimales pour sa croissance. Ce processus soulève cependant des questions éthiques : jusqu’où peut-on aller pour manipuler les cycles naturels des plantes ? Les serres offrent une alternative pour préserver certaines espèces, mais elles ne remplacent pas un écosystème naturel complet.
+        </p>
+
+        <h2>🌍 Microclimat et serre : Reproduire l’habitat naturel de la tulipe</h2>
+        <p>
+            Dans la nature, la tulipe pousse dans des zones aux hivers rigoureux et aux étés secs. Sous serre, il est nécessaire de recréer ce microclimat en contrôlant la température et l’humidité. Pendant la période hivernale, les bulbes doivent être exposés à des températures basses (environ 5°C) pour permettre la dormance, indispensable à la floraison. Ensuite, une montée progressive en température favorise l’émergence des fleurs. En serre, un contrôle précis du substrat est aussi essentiel pour éviter les maladies fongiques et assurer une floraison optimale.
+        </p>
+
+        <h2>🌾 Importance écologique et interaction avec l’écosystème</h2>
+        <p>
+            La tulipe joue un rôle essentiel dans son écosystème. En tant que plante mellifère, elle attire divers pollinisateurs tels que les abeilles et certains coléoptères, favorisant ainsi la biodiversité. De plus, ses bulbes servent de nourriture à certains rongeurs et petits mammifères. Dans un contexte de réchauffement climatique, la conservation de la tulipe devient un enjeu important. La destruction des prairies et la raréfaction des sols adaptés menacent certaines espèces de tulipes sauvages. Préserver ces fleurs, que ce soit par la culture sous serre ou en favorisant leur implantation dans des zones protégées, contribue à la diversité florale et à la stabilité des écosystèmes locaux.
+        </p>
+
+    </div>
+
+    <div class="footer">
+        © 2025 - Herbier Interactif | Projet éducatif sur la biodiversité et l'innovation écologique
+    </div>
+    <section id="observations">
+        <h2>🌷 Vos Observations sur la Tulipe</h2>
+        <form id="observation-form">
+            <label for="observation">Ajoutez votre observation :</label>
+            <textarea id="observation" required></textarea>
+            <button type="submit">Soumettre</button>
+        </form>
+        <h3>🔍 Observations des visiteurs :</h3>
+        <ul id="observations-list"></ul>
+    </section>
+    
+    <script src="observations.js"></script>
+    
+</body>
+</html>
